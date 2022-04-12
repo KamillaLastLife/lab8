@@ -44,15 +44,5 @@ window.onload=function(){
 		slider_wrapper(sliders[i]);
 	}
 
-	const banner_text_holder = document.getElementById("banner_text");
-	const text_for_banner = [
-		{ "text" : 'Бережемо екологію!' },
-		{ "text" : 'Утилізуй комп\'ютерну техніку відповідально!' }
-	]
-	function randomBannerText(holder, text_array) {
-		let random = text_array[Math.floor(Math.random() * text_array.length)];
-		holder.innerText = random.text;
-	}
-
-
+	
 }

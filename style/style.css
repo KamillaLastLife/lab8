@@ -149,4 +149,25 @@ b {
 
 .footer {
 	background-color: #555;
+	color: white;
+}
+
+.footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer .inner_wrapper {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.footer .inner_wrapper .copy {
+	text-align: center;
+}
+
+.footer .inner_wrapper .links {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 }
